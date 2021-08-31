@@ -1,6 +1,6 @@
 const express = require('express');
 const passport = require('passport');
-const {ArchiveController} = require('../../Controllers');
+const {ArchiveController} = require('../../controllers');
 
 const router = express.Router();
 

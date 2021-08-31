@@ -1,6 +1,6 @@
 const express = require('express');
 const passport = require('passport');
-const {ProductCategoryController} = require('../../Controllers');
+const {ProductCategoryController} = require('../../controllers');
 const {HttpModule} = require('../../modules');
 const router = express.Router();
 

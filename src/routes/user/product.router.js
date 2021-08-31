@@ -4,7 +4,7 @@ const {
     ProductController,
     CollectionController,
     ArchiveController,
-} = require('../../Controllers');
+} = require('../../controllers');
 const {HttpModule} = require('../../modules');
 const router = express.Router();
 

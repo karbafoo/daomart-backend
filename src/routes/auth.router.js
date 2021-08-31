@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const {UserController} = require('../Controllers');
+const {UserController} = require('../controllers');
 
 router.get('/nonce/:addr', (req, res, next) => {
     const body = req.params || {};

@@ -1,6 +1,6 @@
 const {Strategy, ExtractJwt} = require('passport-jwt');
 const {USER_SECRET} = require('../../../Config');
-// const {UserController} = require('../../Controllers');
+// const {UserController} = require('../../controllers');
 
 const AdminJWTPassport = (passport) => {
     let opts = {};
